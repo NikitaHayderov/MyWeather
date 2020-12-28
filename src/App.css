@@ -1,0 +1,59 @@
+.app{
+    margin: 55px 0 0;
+    max-width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.cities{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 0 15%;
+}
+.cities button {
+    display: block;
+    background-color: #ffffff;
+    color: #5865cb;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    border-radius: 15px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.cities button:hover {
+    box-shadow: 0 0 40px 40px #e26497 inset;
+}
+
+.weather {
+    display: grid;
+    text-align: center;
+    padding: 0 0 40px 50px;
+}
+.weather h1{
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    line-height: 30px;
+    color:#430758;
+}
+.weather p {
+    font-family: 'Fredoka One', cursive;
+    font-size: 17px;
+    line-height: 20px;
+    color: #481515;
+}
+.load{
+    display: grid;
+    margin: 0 30%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 30px;
+    line-height: 41px;
+    color: #033f30ba;
+}
